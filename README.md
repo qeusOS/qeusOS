@@ -3,7 +3,7 @@ qeusOS's repo and installation script.
 
 ## Installation
 ```
-curl https://raw.githubusercontent.com/qeusOS/qeusOS/main/install.sh | bash -s sudo --
+curl https://raw.githubusercontent.com/qeusOS/qeusOS/main/install.sh | sudo bash
 ```
 
 ## Usage
