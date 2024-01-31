@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "1. Setup repo."
-printf "[qeusOS]\nSigLevel = Optional TrustAll\nServer = https://github.com/qeusOS/pkgs/raw/main/$arch\n" >> /etc/pacman.conf
+printf "[qeusOS]\nSigLevel = Optional TrustAll\nServer = https://github.com/qeusOS/pkgs/raw/main/x86_64\n" >> /etc/pacman.conf
 
 sudo pacman -Syu --noconfirm --needed
 
